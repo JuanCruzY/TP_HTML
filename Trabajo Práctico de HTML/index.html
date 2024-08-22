@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico de HTML</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            h1{
+                text-align: center;
+            }
+            background-color: rgb(106, 133, 110);
+            color: rgb(9, 1, 1);
+            padding: 10px;
+        }
+        main {
+            padding: 10px;
+            background-color: green;
+        }
+        section {
+            margin-bottom: 20px;
+            border: 1px solid navy;
+            padding: 8px;
+            background-color: rgb(183, 212, 139);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px dashed rgb(74, 17, 209);
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encabezado Principal</h1>
+        <nav>
+            <ul>
+                <li><a href="#Estructura">Estructura Básica del Documento HTML.</a></li>
+                <li><a href="#Encabezado">Encabezados y Propiedades del Texto.</a></li>
+                <li><a href="#Divs">Agrupaciones y Divisiones de Contenido.</a></li>
+                <li><a href="#Enlacelista">Enlaces y Listas.</a></li>
+                <li><a href="#Multimedia">Elementos Multimedia.</a></li>
+                <li><a href="#Tablas">Tablas.</a></li>
+                <li><a href="#Formularios">Formularios.</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Estructura">
+            <h2>1. Estructura Básica del Documento HTML</h2>
+            <p>Este documento HTML tiene una estructura básica que incluye la declaración DOCTYPE,
+            etiquetas de metadatos y un título.</p>
+        </section>
+        <section id="Encabezado">
+            <h2>2. Encabezados y Propiedades del Texto</h2>
+            <div>
+                <p>Los distintos tipos de encabezados son los que encontramos a continución:</p>
+                <h1>Este es un h1</h1>
+                <h2>Este es un h2</h2>
+                <h3>Este es un h3</h3>
+                <h4>Este es un h4</h4>
+                <h5>Este es un h5</h5>
+                <h6>Este es un h6</h6>
+            </div>
+            <div>
+                <p>Algunas de las propiedades de texto las podemos ver reflejadas en las siguientes oraciones</p>
+                <p><b>Esta oración está en negrita.</b></p>
+                <p><em>Esta oración está en cursiva.</em></p>
+                <p><u>Esta oración está subrayada.</u></p>
+                <p><mark>Esta oración está resaltada.</mark></p>
+            </div>
+        </section>
+        <section id="Divs">
+            <h2>3. Agrupaciones y Divisiones de Contenido</h2>
+            <div>
+                <h3>Sección 1</h3>
+                <p>Contenido de la primera sección agrupada en un div</p>
+            </div>
+            <div>
+                <h3>Sección 2</h3>
+                <p>Contenido de la segunda sección agrupada en un div</p>
+            </div>
+        </section>
+        <section id="Enlacelista">
+            <h2>4. Enlaces y Listas</h2>
+            <div>
+                <h3>Enlaces Externos</h3>
+                <p>Si hace click <a href="https://chatgpt.com/" target="_blank">acá</a> será redireccionado a Chat GPT</p>
+            </div>
+            <div>
+                <h3>Enlaces Internos</h3>
+                <p>Para recorrer cada una de las secciones clickee la sección que corresponda a continuación:</p>
+                <nav>
+                    <ul>
+                        <li><a href="#Estructura">Estructura Básica del Documento HTML.</a></li>
+                        <li><a href="#Encabezado">Encabezados y Propiedades del Texto.</a></li>
+                        <li><a href="#Divs">Agrupaciones y Divisiones de Contenido.</a></li>
+                        <li><a href="#Enlacelista">Enlaces y Listas.</a></li>
+                        <li><a href="#Multimedia">Elementos Multimedia.</a></li>
+                        <li><a href="#Tablas">Tablas.</a></li>
+                        <li><a href="#Formularios">Formularios.</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h3>Lista Desordenada</h3>
+                <ul>
+                    <li>Primer elemento de la lista desordenada.</li>
+                    <li>Segundo elemento de la lista desordenada.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Lista Ordenada</h3>
+                <ol>
+                    <li>Primer elemento de la lista ordenada.</li>
+                    <li>Segundo elemento de la lista ordenada.</li>
+                </ol>
+            </div>
+        </section>
+        <section id="Multimedia">
+            <h2>5. Elementos Multimedia</h2>
+            <div>
+                <h3>Imagen</h3>
+                <p>Se procede a mostrar la imagen:</p>
+                <center><img src="multimedia\Real_Madrid_CF.svg.webp" alt="Real Madrid" height="200px" width="150px"></center>
+            </div>
+            <div>
+                <h3>Video</h3>
+                <p>Se procede a mostrar el video:</p>
+                <center><video src="multimedia\Hala Madrid...y nada más (feat. RedOne)(360P).mp4" height="400px" width="600px" controls></video></center>
+            </div>
+            <div>
+                <h3>Audio</h3>
+                <p>Se procede a mostrar el audio:</p>
+                <center><audio src="multimedia\Hala Madrid...y nada más (feat. RedOne)(360P).mp4" controls></center>
+            </div>
+        </section>
+        <section id="Tablas">
+            <h2>6. Tablas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Contenido 1</td>
+                        <td>Contenido 2</td>
+                    </tr>
+                    <tr>
+                        <td>Contenido 3</td>
+                        <td>Contenido 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="Formularios">
+            <div>
+                <h2>7. Formularios</h2>
+                <p>Complete el siguiente formulario:</p>
+            </div>
+            <form>
+                <div>
+                    <label>Email</label>
+                    <input type="email" placeholder="example@example.com"/>
+                </div>
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Ingrese su nombre"/>
+                </div>
+                <div>
+                    <label>Apellido</label>
+                    <input type="text" placeholder="Ingrese su apellido"/>
+                </div>
+                <div>
+                    <label>Mensaje</label>
+                    <textarea placeholder="Ingrese su mensaje"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Juan Cruz Yanardi. Todos los derechos reservados.</p>
+        <p>Dirección: Calle Belgrano 230, Ciudad de Mendoza, Mendoza, Argentina</p>
+        <p>Teléfono: (+54) 261 517-4751 | Email: yanardiferrerjuancruz31@gmail.com</p>
+    </footer>
+</body>
+</html>
