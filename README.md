@@ -1,3 +1,6 @@
+Trabajo Práctico de HTML
+Este repositorio contiene un archivo HTML que sirve como un trabajo práctico para demostrar varios conceptos fundamentales de HTML. A continuación se detalla la estructura y el contenido del archivo.
+
 Estructura del Archivo
 El archivo HTML está estructurado de la siguiente manera:
 
